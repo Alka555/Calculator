@@ -15,7 +15,7 @@ function equal(){
     result.value = eval(result.value)
     setTimeout(() => {
         result.value = ""
-        }, 1000);
+        }, 2000);
     }
     catch(error){
         result.value = 'Error'

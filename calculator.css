@@ -1,14 +1,20 @@
 /*Calculator Body*/
+body{
+    /* background-image: url('https://img.freepik.com/premium-vector/calculator-pencils-background_188544-6127.jpg'); */
+    
+}
 .calc-body {
     width: 275px;
     margin: auto;
     min-height: 400px;
-    box-shadow: 0 8px 50px -7px black;
-    background: #3A4655;
+    box-shadow: 0 8px 50px -5px black;
+    background: #2e3c4e;
+    /* border-radius: 5px; */
 }
 /*Calculator Display Screen*/
 .calc-screen {
     padding: 1rem;
+
 }
 #calc-operation {
     font-size: 1.3rem;
@@ -28,7 +34,7 @@
 .calc-button-row button {
     display: table-cell;
     width: 25%;
-    background: #425062;
+    background: #405775;
     color: #fff;
     height: 65px;
     font-size: 1.3rem;
@@ -53,4 +59,8 @@
 }
 .calc-button-row button:hover {
     background: #3e4b5c;
+}
+#result{
+    height: 40px;
+    width: 245px;
 }
